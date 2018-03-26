@@ -10,7 +10,7 @@
 4. [Moment.js](https://momentjs.com/)
 5. [Font Awesome](https://fontawesome.com/v4.7.0/)
 
-**Important:** When using Bootstrap 3 use [Bootstrap 3](https://getbootstrap.com/docs/3.3/) and [Bootstrap 3 Datetimepicker](https://github.com/Eonasdan/bootstrap-datetimepicker)
+**Important:** When using Bootstrap 3 use [Bootstrap 3](https://getbootstrap.com/docs/3.3/) and [Bootstrap 3 Datetimepicker](https://github.com/Eonasdan/bootstrap-datetimepicker).
 
 ### 2. Setup
 

@@ -28,8 +28,12 @@
         function setWeekYear (element, currentDate) {
             var calendarWeek = currentDate.week();
             var year = currentDate.year();
+            var month = currentDate.month();
 
             selectedWeek = calendarWeek;
+            if (month == 11 && calendarWeek == 1) {
+                year += 1;
+            }
             selectedYear = year;
 
             element.val("Week " + calendarWeek + ", " + year);
@@ -77,11 +81,9 @@
                 var selectedDate = getCurrentDate($(this));
                 setWeekYear($(this), selectedDate);
             }).on("dp.show", function() {
-                //console.log("test show");
                 var currentSelectedDate = getCurrentDate($(this));
                 setWeekYear($(this), currentSelectedDate);
             }).on("dp.hide", function() {
-                //console.log("test show");
                 var currentSelectedDate = getCurrentDate($(this));
                 setWeekYear($(this), currentSelectedDate);
             });
