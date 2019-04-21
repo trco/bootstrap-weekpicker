@@ -1,6 +1,6 @@
 # Weekpicker widget for Bootstrap 4 & Bootstrap 3
 
-[View the demo](https://jsfiddle.net/aLgdffvs/1/)
+[View the demo](https://trco.si/bootstrap-weekpicker/)
 
 ### 1. Requirements
 
